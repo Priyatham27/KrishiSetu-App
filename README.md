@@ -1,55 +1,101 @@
-##📱 KrishiSetu – Empowering Farmers With Direct Market Access
+# 🌾 KrishiSetu – Direct Bridge Between Farmers & Buyers  
+### 🚀 AVISHKAAR National Hackathon – Project Submission  
+**Theme:** Agriculture & Food Technology  
+**Problem Statement ID:** AVS301  
 
-Theme: Agriculture & Food Technology
-Problem Statement ID: AVS301
+KrishiSetu is a cross-platform mobile application built to eliminate middlemen and empower farmers with **direct access to buyers**, ensuring fair pricing, transparency, and higher earnings.
 
-KrishiSetu is a mobile application that enables farmers to sell their produce directly to consumers and retailers, eliminating middlemen and increasing profit.
+---
 
-##🚀 Features
-##👨‍🌾 For Farmers:
+## 🟩 Key Highlights
+- 📱 Mobile-first, user-friendly interface  
+- 🔄 Real-time listing, offers & price negotiations  
+- 💬 Buyer–Farmer chat for transparent deals  
+- 🧾 Order placement & simple transaction flow  
+- 🧑‍🌾 Two separate roles → **Farmer** & **Buyer**  
+- ☁️ Powered by Firebase backend  
 
-Add listings (produce, price, quantity, images)
+---
 
-Manage produce inventory
+# 🧠 Problem Statement  
+Many farmers rely on middlemen to sell their produce. They lose a major share of their income and lack a transparent channel to directly connect with buyers.
 
-View buyer offers
+📌 **Goal:**  
+Build a platform that connects farmers directly with buyers/retailers, enabling listing, negotiation, and transaction management.
 
-Chat-based price negotiation
+---
 
-Accept or reject orders
+# ✅ Solution – KrishiSetu  
+KrishiSetu provides:
 
-##🛒 For Buyers:
+### 👨‍🌾 **For Farmers**
+- Add produce listings (price, quantity, category, images)
+- Manage uploaded produce
+- Receive & negotiate buyer offers
+- Confirm orders
 
-Discover farmer-produced goods
+### 🛒 **For Buyers**
+- Browse verified farmer listings
+- Apply filters & sort
+- Negotiate pricing
+- Place orders with COD
 
-Filter, search, and view details
+---
 
-Make offers or negotiate price
+# 🏗️ Architecture Overview
+Flutter UI → Provider State Mgmt → Firebase Auth
+→ Firestore DB → Firebase Storage
 
-Place orders with COD
+---
 
-##🛠 Tech Stack
-Frontend
+# 🛠️ Tech Stack
 
-Flutter (Material 3 UI)
+### **Frontend (Mobile App)**
+- Flutter (Dart)
+- Material 3 UI
+- Provider (state management)
+- HTTP, Dio, Image Picker
 
-Provider (State Management)
+### **Backend**
+- Firebase Authentication
+- Firebase Firestore
+- Firebase Storage
 
-##Backend
+### **Tools Used**
+- Android Studio
+- GitHub
+- Figma (UI mockups)
+- ChatGPT (Rapid prototyping)
+- Canva (Presentations)
 
-Firebase Authentication
+---
 
-Firebase Firestore (Real-time DB)
+# 📂 **Project Structure**
+lib/
+├── screens/
+├── models/
+├── services/
+├── widgets/
+└── assets/
+├── icons/
+└── illustrations/
 
-Firebase Storage (Images)
+---
 
-##Tools
+# ▶️ **How to Run the App**
 
-Dart
+### 1️⃣ Clone the repo
+```bash
+git clone https://github.com/Priyatham27/KrishiSetu-App.git
+cd KrishiSetu-App
+flutter pub get
+flutter run
 
-Android Studio
 
-GitHub
-
-Figma (UI Mockups)
-
+🧑‍🤝‍🧑 Team Avengers
+| Name                    | Role                        |
+| ----------------------- | --------------------------- |
+| **Priyatham Kotipalli** | Team Leader, Lead Developer |
+| **K. Chaitanya Prasad** | Backend & Testing           |
+| **Ch. Ram Charan**      | UI/UX & Documentation       |
+| **B. Venkatesh**        | Firebase Integration & QA   |
