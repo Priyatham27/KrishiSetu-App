@@ -1,16 +1,56 @@
-# krishisetu
+##📱 KrishiSetu – Empowering Farmers With Direct Market Access
 
-A new Flutter project.
+Theme: Agriculture & Food Technology
+Problem Statement ID: AVS301
 
-## Getting Started
+KrishiSetu is a mobile application that enables farmers to sell their produce directly to consumers and retailers, eliminating middlemen and increasing profit.
 
-This project is a starting point for a Flutter application.
+##🚀 Features
+##👨‍🌾 For Farmers:
 
-A few resources to get you started if this is your first Flutter project:
+Add listings (produce, price, quantity, images)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Manage produce inventory
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+View buyer offers
+
+Chat-based price negotiation
+
+Accept or reject orders
+
+##🛒 For Buyers:
+
+Discover farmer-produced goods
+
+Filter, search, and view details
+
+Make offers or negotiate price
+
+Place orders with COD
+
+##🛠 Tech Stack
+Frontend
+
+Flutter (Material 3 UI)
+
+Provider (State Management)
+
+##Backend
+
+Firebase Authentication
+
+Firebase Firestore (Real-time DB)
+
+Firebase Storage (Images)
+
+##Tools
+
+Dart
+
+Android Studio
+
+GitHub
+
+Figma (UI Mockups)
+
+ChatGPT + Gemini for rapid prototyping
