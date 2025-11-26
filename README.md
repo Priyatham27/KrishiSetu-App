@@ -53,4 +53,3 @@ GitHub
 
 Figma (UI Mockups)
 
-ChatGPT + Gemini for rapid prototyping
