@@ -1,0 +1,44 @@
+name: krishisetu
+description: "Farmer-to-buyer marketplace for AVS301 hackathon"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.1
+
+  # Firebase
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.1.0
+  firebase_storage: ^13.0.4
+
+  # Utilities
+  image_picker: ^1.2.1
+  url_launcher: ^6.2.1
+  geolocator: ^14.0.2
+  flutter_dotenv: ^6.0.0
+  share_plus: ^11.0.0
+  path_provider: ^2.0.15
+  intl: ^0.20.2
+  font_awesome_flutter: ^10.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/icons/
+    - assets/illustrations/
